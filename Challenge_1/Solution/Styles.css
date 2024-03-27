@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(197, 197, 197);
+}
+
+.main-box {
+  display: grid;
+  grid-template-columns : 250px 250px 250px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.box-1 {
+  background-color: rgb(230, 155, 18);
+  width: 300px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+.box-2 {
+  background-color: rgb(33, 119, 145);
+  width: 300px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+.box-3 {
+  background-color: rgb(12, 76, 78);
+  width: 300px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+.icon-picture {
+  height: 60px;
+  width: 60px;
+}
+
+.icon-picture2 {
+  height: 45px;
+  width: 50px;
+  padding-top: 6px;
+}
+
+.car-type {
+  font-family: impact;
+  font-size: 25px;
+  color: white;
+  
+}
+
+.car-type2 {
+  font-family: impact;
+  font-size: 25px;
+  color: white;
+  padding-left: 50px;
+  padding-top: 9px;
+}
+
+.description {
+  font-family: arial;
+  color: rgb(235, 229, 229);
+  font-size: 12px;
+  width: 170px;
+  line-height: 25px;
+  margin-bottom: 75px;
+}
+
+button {
+  height: 40px;
+  width: 140px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 20px;
+  font-family: arial;
+  font-size: 12px;
+}
+
+.Learn-more {
+    margin-top: 30px;
+    color: rgb(230, 155, 18);
+}
+
+  .Learn-more2 {
+    margin-top: 10px;
+    color: rgb(33, 119, 145);
+}
+
+.Learn-more3 {
+  color: rgb(12, 76, 78);
+  margin-top: 10px;
+}
+
+.icon-picture, .icon-picture2, .car-type, .description{
+  padding-left: 50px;
+}
